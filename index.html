@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Play:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/2.9.3/tsparticles.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/hbd.css">
+</head>
+<body>
+    <div id="particles-container"></div>
+    
+    <div class="container">
+        <div class="main-section">
+            <div class="main-title-container">
+                <h1 class="main-title">Happy Birthday, <span class="name neon-glow">Sweetheart</span></h1>
+                <p class="subtitle">You light up my world</p>
+                <div class="date-container">
+                    <div class="date-icon">
+                        <i class="fa-solid fa-calendar-heart"></i>
+                    </div>
+                    <div class="date-text neon-glow">
+                        <i class="fa-solid fa-cake-candles"></i> 28 April 2025 <i class="fa-solid fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <button class="btn open-message-btn">Open Message</button>
+            <button class="btn play-music-btn">Play Music</button>
+            <audio id="bg-music">
+                <source src="audio/bg-sound.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="content-section">
+            <div class="love-message">
+                <p>
+                    To the most amazing person in my life,
+                </p>
+                <p>
+                    Today is all about celebrating you - the way you laugh, the way your eyes light up when you're excited, and how you make everything better just by being you. From the moment we met, you've filled my days with joy and wonder that I never knew was possible.
+                </p>
+                <p>
+                    Through every adventure we've shared and every quiet moment together, my love for you has only grown stronger. You're my best friend, my confidant, and the person who makes my heart skip a beat every single day.
+                </p>
+                <p>
+                    Happy birthday, my love. Here's to another year of making beautiful memories together.
+                </p>
+                <p>
+                    Forever yours,
+                </p>
+            </div>
+
+            <div class="photos-container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/5.png" alt="Us together">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/2.png" alt="Happy memory">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/3.png" alt="Special moment">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/4.png" alt="Adventure together">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/1.png" alt="Lovely smile">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/6.png" alt="Lovely smile">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/7.png" alt="Lovely smile">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <button class="btn return-btn">Back to Start</button>
+        </div>
+    </div>
+    </div>
+    <script src="js/hbd.js"></script>
+</body>
+</html>
